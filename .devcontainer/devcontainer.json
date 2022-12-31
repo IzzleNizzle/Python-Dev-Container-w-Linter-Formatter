@@ -36,13 +36,10 @@
             },
             // Add the IDs of extensions you want installed when the container is created.
             "extensions": [
-                "WakaTime.vscode-wakatime",
                 "ms-python.python"
             ]
         }
     },
     // Set container env variables as desired
-    "remoteEnv": {
-        "WAKATIME_API_KEY": "${localEnv:WAKATIME_API_KEY}"
-    }
+    "remoteEnv": {}
 }
